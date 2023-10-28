@@ -13,7 +13,7 @@ test.describe('Browse LambdaTest in different search engines 3', () => {
     
     await page.locator("//input[@id='company']").fill("ABC")
     await page.locator("//input[@name='website']").fill("ABC.com")
-    await page.locator("//select[@name='country']").selectOption('United States')
+    await page.locator("//select[@name='country']",'United States')
     await page.locator("//input[@name='city']").fill("NY")
     await page.locator("//input[@name='address_line1']").fill("xyz")
     await page.locator("//input[@name='address_line2']").fill("ghy")
